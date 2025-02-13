@@ -1,0 +1,18 @@
+.flex-container {
+  display: flex; 
+  align-items: center; /* Align items vertically in the center */
+  gap: 10px; /* Add spacing between the label and input */
+}
+
+label {
+  font-size: 16px;
+  color: #333; /* Style for the text */
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-grow: 1; /* Make the input stretch to fill space if needed */
+}

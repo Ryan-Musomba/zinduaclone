@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us-Zindua School</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+    
+    a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+    }
+    
+a:visited {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color:red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.contact-details{
+  display:grid;
+ grid-template-columns: 500px 350px 500px;
+ gap: 20px; 
+ background-color: black;
+}
+        .col{
+            padding-left: 20px;
+            gap: 20px;
+            grid-template-columns: auto;
+        }
+      .content {
+     
+        text-align: center;
+        margin-top: 90px;
+        border-radius: 10px;
+      }
+      .container{
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr ;
+ gap: 20px; 
+ border-color: black;
+ }
+.border{
+  border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+padding: 10px;
+background:white;
+ border-radius: 20px;
+}
+      .col {
+        border: 1px solid gray;
+        padding: 20px;
+      }
+      .rounded {
+        border-radius: 15px;
+      }
+      .apply {
+        text-align: center;
+        margin-top: 90px;
+      }
+    .d-grid{
+        padding: 3px;
+        border-radius: 10px;
+    }
+    .custom-shape {
+    width: 1500px;
+    height: 600px;
+    clip-path:circle();
+    overflow: hidden;
+  }
+  .custom-shape img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .apply{
+    background-color: rgb(255, 248, 240);
+  }
+  .dflex{
+    background-color: black;
+  }
+  .navbar {
+            padding: 1rem 2rem;
+
+        }
+
+        .navbar-brand {
+            margin-right: 30px;
+
+        }
+
+        .navbar-nav .nav-item {
+            margin-left: 20px;
+
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #000;
+
+        }
+
+
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #007bff;
+        }
+
+        .navbar-light .navbar-nav .dropdown-menu {
+            background-color: #f8f9fa;
+            border: none;
+        }
+
+        .navbar-light .navbar-nav .dropdown-item:hover {
+            background-color: #e9ecef;
+        }
+        .navbar-brand img {
+    aspect-ratio: auto 478 / 230;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    box-sizing: border-box;
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    line-height: 25.5px;
+    max-width: 110px;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    text-size-adjust: 100%;
+    visibility: visible;
+    width: 178px;
+  }
+  .icon{
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 50% ;
+    font-size: 75px;
+    color:red;
+   margin-left: 110px;
+    align-items: center;
+  }
+  .icons-two{
+    display: inline-flex;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 50px ;
+    font-size: 20px;
+    color:white;
+   background-color: red;
+  }
+  .last {
+ display:grid;
+ grid-template-columns:   215px 260px 240px 180px;
+ gap: 70px; 
+ padding: 70px;
+    }
+  @media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr ; 
+   
+  }
+  .last {
+ display: grid;
+ grid-template-columns:  1fr;
+ gap: 20px; 
+ padding: 70px;
+    }
+
+
+  .contact-details {
+    grid-template-columns:  1fr; 
+    gap: 10px; 
+  }
+ 
+  .custom-shape {
+    width: 100%; 
+    height: 100%;
+    grid-template-columns: 500px ; 
+  }
+
+}
+
+
+
+    </style>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="download.png" alt=" logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Programs
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Data Programs</a></li>
+                            <li><a class="dropdown-item" href="#">Software Programs</a></li>
+                            <li><a class="dropdown-item" href="#">Progrmas by Your Level</a></li>
+                            <li><a class="dropdown-item" href="#">Short Tech Courses</a></li>
+                            <li><a class="dropdown-item" href="#">Join Our Free Courses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Financing options
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="#">Program Pricing Options</a></li>
+                            <li><a class="dropdown-item" href="#">Flexi(Lipa Mdogo Mdogo)</a></li>
+                            <li><a class="dropdown-item" href="#">Income-Share Agreements</a></li>
+                            <li><a class="dropdown-item" href="#">Estimate your Fees</a></li>
+                        </ul>
+                    </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <li><a class="dropdown-item" href="discoverblog.html">Discover Blog</a></li>
+                        <li><a class="dropdown-item" href="#">Events/Master Classes</a></li>
+                        <li><a class="dropdown-item" href="#">Frequently Asked(FAQs)</a></li>
+                    </ul>
+                </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                    <li><a class="dropdown-item" href="#">Join our Team</a></li>
+                </ul>
+            </li>
+        <li class="nav-item dropdown" style="color: rgb(120, 197, 212);">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false" >
+                login 
+                 <i class='bx bx-user'></i>
+               </a>
+                 
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <li><a class="dropdown-item" href="#">Student Login</a></li>
+                    <li><a class="dropdown-item" href="#">ambassador login</a></li>
+                </ul>
+              
+          
+        </li>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary">Apply Today</button>
+    </nav>
+<hr>
+    
+    <div class="content">
+      <h2>About Us</h2>
+      <br />
+      <p style="font-size: x-large;">Transformative tech education at favourable prices for all.</p>
+    </div>
+    <br />
+    <div class="container">
+      <div class="border " style="font-size: x-large;">
+        <div class="icon"> <i class='bx bx-user'style="align-items: center;"></i></div>
+        <h3 style="color: red;" >For Students</h3>
+        <p>
+          Learn to code by joining our coding programs in
+          <b>Data Science</b> and <b>Software Development</b>
+        </p>
+      </div>
+      
+      <div class="border  " style="font-size: x-large;"> 
+        <div class="icon"> <i class='bx bx-building ' style="align-items: center;"></i></div>
+       
+        <h3 style="color: red">For Employers</h3>
+      <p>
+        <b >Hire our graduates </b> and get tech talent to push you company
+        forward faster
+      </p>
+      </div>
+      <div class="border " style="font-size: x-large;">
+        <div class="icon"><i class='bx bxs-briefcase'></i></div>
+        <h3 style="color: red">For Professionals</h3>
+          <p>
+            Grow your skills through our<b> technical mater classes </b> or
+            <b>join the Zindua team</b>
+          </p>
+      </div>
+    </div>
+    <br><br><br><br>
+    <div class="d-flex align-items-center">
+      <div class="custom-shape "  style="margin-left: 80px;">
+        <img
+          src="Banner-income-share-agreement-e1655142450544-687x1024.webp"
+          alt="..image."
+        />
+      </div>
+        <div class="flex-grow-1 ms-3" style="margin-right: 100px;" >
+          <h3 class="text-red text-xl">Launch Your Career in Technology</h3>
+          <p style="font-size: x-large;">
+            Zindua School is a coding school that offers virtual part-time
+            programs in <b style="color: red">Data Science</b> and
+            <b style="color: red">Software Development </b> to students in
+            emerging economies.Zindua is categorically known for its
+            <b> one-on-one technical mentorship model</b> where students are given
+            personalised support by experts throughtout the program
+          </p>
+          <p style="font-size: x-large;">
+            <b>Our financing options</b> allow students to
+            <b style="color: rgb(254, 52, 72)"
+              >defer 50% of their tuition through income-share agreements</b
+            >
+            .Students paying upfront also have a
+            <b style="color: rgb(254, 52, 72)">50% money-back garantee </b> if
+            they do not get a job in 12 months on graduation
+          </p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="flex-grow-1 ms-3" style="margin-left: 100px;" >
+          <h3>Outputting innovative technical talent</h3>
+          <p style="font-size: x-large;">
+            <b>For Campanies/Employers:</b> You can partner with Zindua to offer
+            internships to budding tech talent,offer real-world projects to engage
+            students and reduce your developer's workload,and most importantly
+            hire high-achieving graduates who are looking to start their tech
+            careers.
+            <a href="#" style="color: rgb(254, 52, 72)"
+              >Conatct us for more info</a
+            >
+          </p>
+          <p style="font-size: x-large;">
+            <b > For Professionals:</b>As Zindua seeks to grow
+            its reach across Africa,we are in constant search for technical
+            mentors(Data Science and Software Development) aqnd business/marketing
+            professinals.
+            <a href="#" style="color: rgb(254, 52, 72)">Work with us today.</a>
+          </p>
+        </div>
+        <div class="custom-shape" style="margin-right: 80px;">
+          <img src="image.jpg" alt=".my image." />
+        </div>
+      </div>
+      
+      
+    <div class="apply"><br><br>
+      <h2 style="font-size: x-large;" >
+        Join Zindua School today:Catapult your career <br>into the dynamic world of
+        tech!
+      </h2><br>
+      <p style="font-size: x-large;">
+        We have <b>part-time intakes every 10 weeks</b> and
+        <b>full-timeintakes every 6 weeks</b> .Your gateway into a<br> future in
+        tech starts NOW
+      </p>
+      <div class="d-grid gap-2 col-3 mx-auto" style="background-color: rgb(254, 52, 72);">
+       <a href="apply.html" style="color: white;">Apply Now</a>
+      </div>
+      <br><br><br><br>
+    </div> 
+    <div class="contact-section">
+      <div class="contact-details"> 
+        
+        <div style="margin-top: 40px; margin-left: 70px;"> 
+          <h5 class="section-title" style="color: rgb(254, 52, 72)">TALK TO US</h5>
+        <p class="contact-info" style="color:white;">
+          +254 (0)768342776 | hello@gmail.com <br>
+          233 Owashika Road, Lavington, Nairobi, Kenya <br>
+          (At Circular Innovation Hub)
+          <div class="icons-two">
+            <i class='bx bxl-instagram'></i>
+          </div>
+          <div class="icons-two">
+            <i class='bx bxl-linkedin'></i>
+          </div>
+          <div class="icons-two">
+            <i class='bx bxl-tiktok' ></i>
+          </div>
+          <div class="icons-two">
+            <i class='bx bxl-twitter'></i>
+          </div>
+          <div class="icons-two">
+            <i class='bx bxl-youtube' ></i>
+          </div>
+        </p>
+        
+        </div>
+        
+       
+        <div class="newsletter-section " style="margin-top: 40px;">
+          <h5 style="color: white;">JOIN OUR NEWSLETTER</h5>
+          <div >
+            <div >
+              <input type="text" class="form-control" placeholder="Your Email Address" aria-label="Email">
+            </div>
+            
+        </div>
+      </div>
+      <div style="margin-top: 72px;">
+        <button type="button" class="btn " style="background-color: red; color: white;">Subcribe</button>
+      </div>
+    
+      <div class="last" >
+      
+        <div class="links " >
+          <h4 style="color: white; font-size: medium;">QUICK ACCESS</h4>
+          <li><a style="color: white;"  href="#">Apply Today</a></li>
+          <li><a style="color: white;"  href="#">Financing Options</a></li>
+          <li><a style="color: white;"  href="#">Frequently Asked (FAQs)</a></li>
+          <li><a style="color: white;"  href="#">For High School Graduates</a></li>
+          <li><a style="color: white;"  href="#">For University Graduates</a></li>
+          <li><a style="color: white;"  href="#">For University Students</a></li>
+          <li><a style="color: white;"  href="#">For Working Professionals</a></li>
+          <li><a style="color: white;"  href="#">For Advanced Developers</a></li>
+        </div>
+        <div class="links " >
+          <h4 style="color: white; font-size: medium;">MAIN PROGRAMS</h4>
+          <li><a style="color: white;"  href="#">Software Engineering Core</a></li>
+          <li><a style="color: white;"  href="#">Data Science  Core</a></li>
+          <li><a style="color: white;"  href="#">Data Analytics</a></li>
+          <li><a style="color: white;"  href="#">Frontend Development</a></li>
+          <li><a style="color: white;"  href="#">Data Engineering Specialisation</a></li>
+          <li><a style="color: white;"  href="#">Development Engineering Specialisation</a></li>
+        </div>
+        <div class="links " >
+          <h4 style="color: white; font-size: medium;">SHORT COURSES</h4>
+          <li><a style="color: white;"  href="#">Product Management</a></li>
+          <li><a style="color: white;"  href="#">Data Structures & Algorithms</a></li>
+          <li><a style="color: white;"  href="#">30-Day Data Storytelling Challenge</a></li>
+          <li><a style="color: white;"  href="#">30-Day Web Design Challenge</a></li>
+          <li><a style="color: white;"  href="#">Free Introductory Courses</a></li>
+          <li><a style="color: white;"  href="#">Events & Matserclasses</a></li>
+        </div>
+        <div class="links " >
+          <h4 style="color: white; font-size: medium;">COMPANY</h4>
+          <li><a  style="color: white;" href="#">About Us</a></li>
+          <li><a style="color: white;"  href="#">Contact Us</a></li>
+          <li><a style="color: white;"  href="#">Explore Blog</a></li>
+          <li><a style="color: white;"  href="#">Refer & Earn</a></li>
+          <li><a style="color: white;"  href="#">Join our Team</a></li>
+          <li><a style="color: white;"  href="#">Go to Zindua LMS</a></li>
+          <li><a style="color: white;"  href="#">Go to Affilliate Portal</a></li>
+  
+        </div>
+    </div>
+    
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
